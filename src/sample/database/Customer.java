@@ -1,10 +1,17 @@
-package sample.model;
+package sample.database;
 
 public class Customer {
     private int id;
     private String name;
     private long charge;
     private String phone;
+
+    public Customer(int id, String name, long charge, String phone) {
+        this.id = id;
+        this.name = name;
+        this.charge = charge;
+        this.phone = phone;
+    }
 
     public int getId() {
         return id;
