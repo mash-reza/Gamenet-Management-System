@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.CustomerPreferencesController">
+   <children>
+      <MenuBar layoutY="1.0" maxWidth="1.7976931348623157E308" prefWidth="1280.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Customer">
+            <items>
+              <MenuItem fx:id="newCustomerMenuItem" mnemonicParsing="false" text="New Customer" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Manage">
+            <items>
+              <MenuItem fx:id="managementPanelMenuItem" mnemonicParsing="false" text="Management Panel" />
+                  <MenuItem fx:id="addDeviceMenuItem" mnemonicParsing="false" text="Add Device" />
+                  <MenuItem fx:id="preferencesMenuItem" mnemonicParsing="false" text="Preferences" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem fx:id="aboutMenuItem" mnemonicParsing="false" text="About" />
+                  <MenuItem fx:id="errorLogMenuItem" mnemonicParsing="false" text="Error Log" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Label layoutX="14.0" layoutY="43.0" prefHeight="18.0" prefWidth="35.0" text="Name" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="1231.0" AnchorPane.topAnchor="43.0" />
+      <TextField layoutX="65.0" layoutY="39.0" AnchorPane.leftAnchor="65.0" AnchorPane.topAnchor="39.0" />
+      <Label layoutX="14.0" layoutY="80.0" prefHeight="18.0" prefWidth="35.0" text="Phone" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="1231.0" AnchorPane.topAnchor="80.0" />
+      <Label layoutX="14.0" layoutY="116.0" prefHeight="18.0" prefWidth="41.0" text="Charge" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="1225.0" AnchorPane.topAnchor="116.0" />
+      <TextField layoutX="65.0" layoutY="76.0" AnchorPane.leftAnchor="65.0" AnchorPane.topAnchor="76.0" />
+      <TextField layoutX="65.0" layoutY="112.0" AnchorPane.leftAnchor="65.0" AnchorPane.topAnchor="112.0" />
+      <ButtonBar layoutX="14.0" layoutY="144.0" prefHeight="40.0" prefWidth="200.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="144.0">
+        <buttons>
+          <Button mnemonicParsing="false" text="Add" />
+        </buttons>
+      </ButtonBar>
+   </children>
+</AnchorPane>
